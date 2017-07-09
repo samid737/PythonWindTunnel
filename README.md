@@ -38,6 +38,7 @@ Pygame:
 
 http://www.pygame.org/download.shtml
 
+They are also added as zip files in the repo. the pgu.zip should be extracted to the same directory.
 
 # Usage
 
