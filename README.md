@@ -8,8 +8,9 @@ https://github.com/barbagroup/AeroPython
 
 The airfoil, angle of attack and flow accuracy are parameters that can be adjusted if desired\n(increasing doubles the grid). After changing the parameters click the Recompute flow button to recompute. \n This might take up to 20 seconds depending on the desired accuracy and your computer.You can browse through some of the airfoils I have added to the program,but you can always add more .dat files.Please note that each .dat file must only contain coordinates in Selig format(see available .dat files as a reference) and datapoints must be seperated by tabs.
 
-* If you have any questions or need help with installing/setting up the program (its tedious), you can always contact me and I will try to help you out:
-  * D.sami-1@student.tudelft.nl
+* If you have any questions or need help with installing/setting up the program (its tedious), you can contact me.
+
+
 
 # Requirements:
 
