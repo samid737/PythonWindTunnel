@@ -47,16 +47,16 @@ If again there are import errors, try running from an editor.
 
 the following settings can be adjusted during simulation,but requires the user to click RECOMPUTE:
 
--angle of attack
--accuracy
--airfoil
+* angle of attack
+* accuracy
+* airfoil
 
 Afterwards the program will output a streamplot, a pressure plot and the simulation.
 
 the following can be adjusted freely by the user without recomputing:
 
--number of particles
--simulation speed
+* number of particles
+* simulation speed
 
 
 
@@ -64,11 +64,11 @@ the following can be adjusted freely by the user without recomputing:
 
 The program should be stable in current state, with current calibration on parameters, but some remarks/improvements that can be made:
 
--the particles are a bit offset near the surface of the airfoil.
--Changing the ratio between the Nx and Ny, (which is 3:1 currently), might crash the program.
--Making the accuracy higher currently does not really have any significant benefit currently. The current accuracy setting is either low(30x10) or high(60x20) grid.
+* the particles are a bit offset near the surface of the airfoil.
+* Changing the ratio between the Nx and Ny, (which is 3:1 currently), might crash the program.
+* Making the accuracy higher currently does not really have any significant benefit currently. The current accuracy setting is either low(30x10) or high(60x20) grid.
 Any above resulted in innacurate flow.
--increasing the N, number of panels, might not work(some values will give integration errors and it will not plot the airfoil properly).
--increasing the current limit amount of particles (19). the lookup of the associated grid index in CollisionDetect() fails in some way.
--Program runs slow in Top secret Wind tunnel mode. I believe the blitting may be an issue, but i am not sure.
+* increasing the N, number of panels, might not work(some values will give integration errors and it will not plot the airfoil properly).
+* increasing the current limit amount of particles (19). the lookup of the associated grid index in CollisionDetect() fails in some way.
+* Program runs slow in Top secret Wind tunnel mode. I believe the blitting may be an issue, but i am not sure.
 
