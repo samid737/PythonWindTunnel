@@ -10,6 +10,7 @@ The airfoil, angle of attack and flow accuracy are parameters that can be adjust
 
 * If you have any questions or need help with installing/setting up the program (its tedious), you can contact me.
 
+![Wind tunnel](/screenshots/GUI.png)
 
 
 # Requirements:
@@ -21,7 +22,6 @@ The program requires the following libraries to work properly:
 * Numpy
 * Scipy
 * matplotlib
-
 * PGU
 * Pygame
 
@@ -29,22 +29,16 @@ The first part should be included in a standard python (x,y) distribution, found
 
 https://python-xy.github.io/downloads.html
 
-The other two are available here:
-
-PGU:
-
-http://pygame.org/project-PGU+-+Phil's+pyGame+Utilities-108-.html
-
-Pygame:
+For Pygame:
 
 http://www.pygame.org/download.shtml
 
-They are also added as zip files in the repo. the pgu.zip should be extracted to the same directory.
+The program runs with pygame 1.9.1
 
 # Usage
 
 To run the program, run GUI.py from a python console (or python GUI.py from terminal / cmd). 
-If there are import errors, try copying the entire project folder into the default work directory (C:\Python27\ it should be).
+If there are import errors, try copying the entire project folder into the default working directory (C:\Python27\ it should be).
 If again there are import errors, try running from an editor.
 
 the following settings can be adjusted during simulation,but requires the user to click RECOMPUTE:
@@ -53,7 +47,7 @@ the following settings can be adjusted during simulation,but requires the user t
 * accuracy
 * airfoil
 
-Afterwards the program will output a streamplot, a pressure plot and the simulation.
+Afterwards the program will output a streamplot![Wind tunnel](/screenshots/Airfoil2.png), a pressure plot![Wind tunnel](/screenshots/Airfoil3.png) and the simulation ![Wind tunnel](/screenshots/GUI.png).
 
 the following can be adjusted freely by the user without recomputing:
 
