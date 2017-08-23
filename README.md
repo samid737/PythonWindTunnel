@@ -47,7 +47,9 @@ the following settings can be adjusted during simulation,but requires the user t
 * accuracy
 * airfoil
 
-Afterwards the program will output a streamplot![Wind tunnel](/screenshots/Stream.png), a pressure plot![Wind tunnel](/screenshots/Pressure.png) and the simulation ![Wind tunnel](/screenshots/GUI.png).
+Afterwards the program will output a streamplot![streamplot](/screenshots/Stream.png), a ![pressure plot](/screenshots/Pressure.png) and the 
+
+ ![simulation](/screenshots/GUI.png).
 
 the following can be adjusted freely by the user without recomputing:
 
