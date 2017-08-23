@@ -47,9 +47,9 @@ the following settings can be adjusted during simulation,but requires the user t
 * accuracy
 * airfoil
 
-Afterwards the program will output a ![streamplot](/screenshots/Streamplot.png), a ![pressure plot](/screenshots/Pressure.png) 
+Afterwards the program will output a ![streamplot](/screenshots/Streamplot.png), a pressure plot ![pressure plot](/screenshots/Pressure.png) 
 
-and the
+and finally the simulation.
 
 ![simulation](/screenshots/GUI.png).
 
